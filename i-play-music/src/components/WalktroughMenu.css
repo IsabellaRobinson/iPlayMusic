@@ -1,0 +1,26 @@
+.WalktroughMenuCirckels {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.InsideCirckelCard {
+    display: flex;
+    align-items: center;
+    border: #341931 3px solid;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.InsideCirckelCard img{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.InsideCirckelCard img:hover {
+    background-color: #FF1168;
+}
+
