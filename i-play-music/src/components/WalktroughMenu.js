@@ -2,20 +2,22 @@ import './WalktroughMenu.css';
 import { Link } from '@reach/router';
 
 export default function WalktroughMenuCard() {
+
 	return (
-		<article className="WalktroughMenuCirckels">
+            
+            <article className="WalktroughMenuCirckels">
 
-            <div className="InsideCirckelCard">
-            <Link to="/radio"><img src="radio.svg" alt="radio"/></Link>
-            </div>
+      
+                  <i className="icon-spotify Walktrough-items"></i>
+    
+                  <i className="icon-heart Walktrough-items"></i>
 
-            <div className="InsideCirckelCard">
-            <Link to="/fav"><img src="heart.svg" alt="heart"/></Link>
-            </div>
+                  <i className="icon-note Walktrough-items"></i>
 
-            <div className="InsideCirckelCard" >
-            <Link to="/note"><img src="note.svg" alt="note"/></Link>
-            </div>
+            
+                  
+                  <h2 className="walkThroughSkip"><Link to="/">SKIP</Link></h2>
+            
 
 		</article>
 	);
