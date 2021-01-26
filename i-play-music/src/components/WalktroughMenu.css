@@ -1,0 +1,26 @@
+.WalktroughMenuCirckels {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+
+/* SKIP KNAP */
+.WalkThroughSkip a {
+    text-decoration: none;
+    color: #341931;
+    font-weight: 100;
+    font-size: large;
+}
+
+.WalkThroughSkip {
+    justify-content: center;
+    display: flex; 
+    grid-column: 2;
+}
+
+/* Stylingen af ikonerne ligger inde i selve "WalkthroughMenu.js" øverst. */
+
+
+

@@ -1,0 +1,36 @@
+.Text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.TextPage_title {
+    justify-content: center;
+    text-align: center;
+}
+
+/* IMAGE I TOP */
+.bgimg1,
+.bgimg_pg2,
+.bgimg_pg3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+    overflow: hidden;
+    }
+
+/* specifik styling på billederne i toppen. */
+.bgimg1 {
+    transform: translate(0, -145px);
+}
+
+.bgimg_pg2,
+.bgimg_pg3  {
+    transform: scaleY(-1) translate(-70px, 90px);
+    width: 117vw;
+}
+
