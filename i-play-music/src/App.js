@@ -2,8 +2,10 @@ import React from "react";
 import './App.css';
 import { Router } from "@reach/router";
 import StartUpCard from "./pages/StartUpPage";
-import Walktrough  from "./pages/WalktroughMenu";
-import Walktrough_pg2 from "./pages/WalktroughMenu_page2";
+import Walktrough  from "./pages/Walktrough_page1";
+import Walktrough_Pg2 from "./pages/Walktrough_page2";
+import Walktrough_pg3 from "./pages/Walkthrough_page3";
+
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
     <Router>
       <StartUpCard path="/" />
       <Walktrough path="/Walktrough"/>
-      <Walktrough_pg2 path="/Walktrough2"/>
+      <Walktrough_Pg2 path="/Walktrough2"/>
+      <Walktrough_pg3 path ="/Walktrough3"/>
 
     </Router>
     

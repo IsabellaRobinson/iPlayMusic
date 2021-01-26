@@ -1,16 +1,17 @@
 import './WalktroughText.css';
 
 
-export default function WalktroughText() {
+export default function WalktroughText_pg3() {
 
     return (
     
         <article className="Text">
 
-        <div className="bgimg1">
-                <img src="./badges1.svg" alt=""/>
+        <div className="bgimg_pg3">
+                  <img src="./badges3.svg" alt=""/>
         </div>
-            <h1 className="TextPage_title">Where words fail, <br></br> Music speaks</h1>
+
+            <h1 className="TextPage_title">Peace. Love <br/> Music</h1>
 
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate aspernatur vitae in iusto, blanditiis provident!</p>
         </article>
