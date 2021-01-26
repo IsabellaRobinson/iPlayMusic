@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?97730328');
-  src: url('../font/fontello.eot?97730328#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?97730328') format('woff2'),
-       url('../font/fontello.woff?97730328') format('woff'),
-       url('../font/fontello.ttf?97730328') format('truetype'),
-       url('../font/fontello.svg?97730328#fontello') format('svg');
+  src: url('../font/fontello.eot?68715585');
+  src: url('../font/fontello.eot?68715585#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?68715585') format('woff2'),
+       url('../font/fontello.woff?68715585') format('woff'),
+       url('../font/fontello.ttf?68715585') format('truetype'),
+       url('../font/fontello.svg?68715585#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?97730328#fontello') format('svg');
+    src: url('../font/fontello.svg?68715585#fontello') format('svg');
   }
 }
 */
@@ -56,5 +56,19 @@
 }
  
 .icon-heart:before { content: '\e800'; } /* '' */
-.icon-note:before { content: '\e801'; } /* '' */
-.icon-spotify:before { content: '\e802'; } /* '' */
+.icon-search:before { content: '\e801'; } /* '' */
+.icon-note:before { content: '\e802'; } /* '' */
+.icon-mic:before { content: '\e803'; } /* '' */
+.icon-cog:before { content: '\e804'; } /* '' */
+.icon-googleplay:before { content: '\e805'; } /* '' */
+.icon-forward:before { content: '\e806'; } /* '' */
+.icon-backward:before { content: '\e807'; } /* '' */
+.icon-dot-3:before { content: '\e808'; } /* '' */
+.icon-left-open:before { content: '\f007'; } /* '' */
+.icon-pause:before { content: '\f00e'; } /* '' */
+.icon-to-start:before { content: '\f011'; } /* '' */
+.icon-fast-forward:before { content: '\f012'; } /* '' */
+.icon-color-adjust:before { content: '\f020'; } /* '' */
+.icon-stop:before { content: '\f080'; } /* '' */
+.icon-heartbeat:before { content: '\f21e'; } /* '' */
+.icon-spotify:before { content: '\f327'; } /* '' */
