@@ -12,12 +12,11 @@
     box-shadow: 0 -10px 25px 0 rgba(0, 0, 0, 0.212);
 }
 
-i.icon-heartbeat {
-    background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+ .iconDrawer {
+    background-image: linear-gradient(to right, #EE0979, #FF6A00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     font-size: xx-large;
     height: 45px;
 }
-
-/* #FF6A00 Orange */
-/* #EE0979 Pink */

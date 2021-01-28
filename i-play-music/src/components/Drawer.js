@@ -8,11 +8,8 @@ const NavLink = props => (
       {...props}
       getProps={({ isCurrent }) => {
         return {
-
-              style: {
-                fontSixe: "xx-large",
-                justifyContent: "space-evenly",
-                backgroundImage: "linear-gradient(45deg, #f3ec78, #af4261)"
+              style: {  
+                color: isCurrent ?  "#341931" : "transparent",
           }
         };
       }}
@@ -23,16 +20,29 @@ const NavLink = props => (
 
         <article className="DrawerButtom">
 
-        <NavLink to="/pulse">
-            <i className="icon-heartbeat">
+        <NavLink to="/Categories" className="iconDrawer"><i className="icon-heartbeat">
             </i>
         </NavLink>
 
-            <i className="icon-heartbeat"></i> 
-            <i className="icon-mic Drawer-icons"></i>
-            <i className="icon-heart"></i>
-            <i className="icon-color-adjust"></i>
-            <i className="icon-cog"></i>
+        <NavLink to="/Featured" className="iconDrawer">
+            <i className="icon-mic">
+            </i>
+        </NavLink>
+
+        <NavLink to="/LatestTrends" className="iconDrawer">
+            <i className="icon-heart">
+            </i>
+        </NavLink>
+
+        <NavLink to="/Music" className="iconDrawer">
+            <i className="icon-color-adjust">
+            </i>
+        </NavLink>
+
+        <NavLink to="/Settings" className="iconDrawer">
+            <i className="icon-cog">
+            </i>
+        </NavLink> 
 
         </article>
     );
