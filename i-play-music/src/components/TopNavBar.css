@@ -1,0 +1,22 @@
+.TopNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.TopNav_icon {
+    background: transparent;
+    border: none;
+    font-size: large;
+}
+
+.TopNav_text {
+    font-variant: all-petite-caps;
+    font-size: large;
+    font-weight: 200;
+    letter-spacing: 4px;
+
+}
+
+
+

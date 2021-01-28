@@ -1,0 +1,22 @@
+.DrawerButtom {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    height: 75px; 
+    box-shadow: 0 -10px 25px 0 rgba(0, 0, 0, 0.212);
+}
+
+ .iconDrawer {
+    background-image: linear-gradient(to right, #EE0979, #FF6A00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: xx-large;
+    height: 45px;
+}
