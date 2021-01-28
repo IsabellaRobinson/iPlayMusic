@@ -1,0 +1,64 @@
+.login {
+    justify-content: center;
+    margin: 7%;
+}
+.login_title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.login_Form {
+    margin-top: 40%;
+    width: 100%;
+}
+
+/* INPUT */
+.login_Form div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.login_Form input {
+    background: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.login_Form img {
+    width: 20px;
+    position: absolute;
+    right: 25px;
+    margin-top: 40px;
+}
+
+
+.login_Form label {
+    width: 100%;
+    font-size: large;
+    font-weight: 600;  
+}
+
+/* ONE TOUCH LOGIN */
+.login_print{
+    display: flex;
+    align-items: center;
+}
+
+
+.login_print {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.login_print img{
+    background-color:#FF1168;
+    padding: 20px;
+    margin-bottom: -20px;
+    margin-top: 15px;
+    width: 30px;
+    border-radius: 50%;
+}
