@@ -1,0 +1,50 @@
+
+.title {
+    background-image: linear-gradient(to right, #EE0979, #FF6A00, #FF6A00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: xx-large;
+    height: 45px;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.CategoriesCard{
+    width: 90%;
+    margin-bottom: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 0 ;
+    margin-right: 20px;
+    margin-left: 20px;
+}    
+
+.categoriesUnderCard__dots {
+    margin-right: 20px;
+}    
+
+
+.CategoriesCard__text{
+    color: #FFFFFF;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}    
+
+
+.UnderCards{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+}    
+
+.underCards--hidden{
+    display: none;
+}    
+
+
