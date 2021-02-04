@@ -4,7 +4,7 @@ export default function LoginButton(props) {
 
 	return (
             
-            <button style={{border: `3px solid ${props.color}`, color: props.color}} className="Button">{props.text}
-            </button>
+            <span style={{border: `3px solid ${props.color}`, color: props.color,}} className="Button">{props.text}
+            </span>
 	);
 }

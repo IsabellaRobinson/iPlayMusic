@@ -8,6 +8,7 @@
 
 .login_Form {
     margin-top: 40%;
+
     width: 100%;
 }
 
@@ -15,27 +16,33 @@
 .login_Form div {
     display: flex;
     flex-direction: column;
+
     padding-top: 20px;
 }
 
 .login_Form input {
     background: transparent;
+
     padding-top: 10px;
     padding-bottom: 10px;
+
+    margin-bottom: 20px;
+
     border: none;
     border-bottom: 3px solid black;
 }
 
 .login_Form img {
     width: 20px;
-    position: absolute;
     right: 25px;
     margin-top: 40px;
+    position: absolute;
 }
 
 
 .login_Form label {
     width: 100%;
+
     font-size: large;
     font-weight: 600;  
 }
@@ -51,14 +58,30 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30px;
+
+    margin-top:10px;
 }
 
 .login_print img{
     background-color:#FF1168;
+    border-radius: 50%;
+
     padding: 20px;
     margin-bottom: -20px;
     margin-top: 15px;
+
     width: 30px;
-    border-radius: 50%;
+    
+}
+
+a.Login-a  {
+    display: flex;
+    justify-content: center;
+
+    margin-top: -25px;
+    text-decoration: none;
+}
+
+a.Button{
+    display: flex
 }

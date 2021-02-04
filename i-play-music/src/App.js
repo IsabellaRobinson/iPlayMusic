@@ -1,36 +1,44 @@
 
-import React from "react";
+import { Router } from "@reach/router";
+import { useState } from "react";
+
 import './App.css';
 import './fontello.svg';
-import { Router } from "@reach/router";
+
+import Callback from "./pages/Callback";
+import TokenContext from "./TokenContext";
 
 import StartUpCard from "./pages/StartUpPage";
+import LoginPg from "./pages/Login";
 import Walktrough  from "./pages/Walktrough_page1";
-import Walktrough_Pg2 from "./pages/Walktrough_page2";
-import Walktrough_pg3 from "./pages/Walkthrough_page3";
-import Featured_Pg from "./pages/Featured";
-import Login_Pg from "./pages/Login";
-import Categories_Pg from "./pages/Categories";
+import WalktroughPg2 from "./pages/Walktrough_page2";
+import WalktroughPg3 from "./pages/Walkthrough_page3";
+import FeaturedPg from "./pages/Featured";
+import CategoriesPg from "./pages/Categories";
+
 
 
 function App() {
 
+  var tokenState = useState(null);
 
   return (
 
-    <Router>
+    <TokenContext.Provider value={tokenState}>
+      <Router>
 
-      <StartUpCard path="/" />
-      <Walktrough path="/Walktrough"/>
-      <Walktrough_Pg2 path="/Walktrough2"/>
-      <Walktrough_pg3 path ="/Walktrough3"/>
-      <Featured_Pg path="/Featured"/>
-      <Login_Pg path= "/Login"/>
-      <Categories_Pg path = "/Categories"/>
-      
-    
-    </Router>
-    
+        <StartUpCard path="/" />
+        <LoginPg path="/Login"/>
+        <Callback path ="/callback"/>
+        <Walktrough path="/Walktrough"/>
+        <WalktroughPg2 path="/Walktrough2"/>
+        <WalktroughPg3 path ="/Walktrough3"/>
+        <FeaturedPg path="/Featured"/>
+        <CategoriesPg path = "/Categories"/>
+
+       </Router>
+    </TokenContext.Provider>
+
   );
 }
 
