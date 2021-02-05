@@ -24,8 +24,6 @@ export default function FeaturedPg() {
 
 
 
-
-
 	return (
 		<>
 		<TopNavBar>Featured</TopNavBar>
