@@ -52,7 +52,7 @@ export default function WalktroughMenuCard() {
 
             
                   
-                  <h2 className="WalkThroughSkip"><Link to="/">SKIP</Link></h2>
+                  <h2 className="WalkThroughSkip"><Link to="/Login">SKIP</Link></h2>
             
 
 		</article>
