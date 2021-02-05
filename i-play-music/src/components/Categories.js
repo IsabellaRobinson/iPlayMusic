@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Categories.css";
 import CategoriesUnderCard from "./CategoriesSub";
-import TopNavBar from "./TopNavBar";
 
 
 
