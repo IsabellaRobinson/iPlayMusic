@@ -1,0 +1,19 @@
+.TopHeading {
+    display: inline-block;
+    
+    background: linear-gradient(90deg, rgba(238,11,117,1) 0%, rgba(254,103,2,1) 100%);
+    color: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    margin-top: -40px;
+    margin-bottom: -30px;
+    padding:  0 20px 0 20px ;
+    
+    font-size: xx-large;
+    font-weight: 800;
+    
+
+}
+

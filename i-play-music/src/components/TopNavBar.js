@@ -7,14 +7,14 @@ export default function TopNavBar({children}) {
         <article className="TopNav">
 
                 <button className="TopNav_icon">
-                    <i className="icon-left-open"> </i>
+                    <i className="icon-left-open" onClick={() => window.history.back()}> </i>
                 </button>
                 
 
 
                 <p className="TopNav_text">{children}</p>
                 
-
+                
                 <button className="TopNav_icon">
                     <i className="icon-search"> </i>
                 </button>
