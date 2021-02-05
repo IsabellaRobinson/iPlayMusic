@@ -24,22 +24,22 @@ function App() {
 
   return (
 
-    <TokenContext.Provider value={tokenState}>
-      <Router>
-
-        <StartUpCard path="/" />
-        <LoginPg path="/Login"/>
-        <Callback path ="/callback"/>
-        <Walktrough path="/Walktrough"/>
-        <WalktroughPg2 path="/Walktrough2"/>
-        <WalktroughPg3 path ="/Walktrough3"/>
-        <FeaturedPg path="/Featured"/>
-        <CategoriesPg path = "/Categories"/>
-
-       </Router>
-    </TokenContext.Provider>
-
-  );
-}
+      <TokenContext.Provider value={tokenState}>
+        <Router>
+  
+          <StartUpCard path="/" />
+          <LoginPg default/>
+          <Callback path ="/callback"/>
+          <Walktrough path="/Walktrough"/>
+          <WalktroughPg2 path="/Walktrough2"/>
+          <WalktroughPg3 path ="/Walktrough3"/>
+          <FeaturedPg path="/Featured"/>
+          <CategoriesPg path = "/Categories"/>
+  
+         </Router>
+      </TokenContext.Provider>
+  
+    );
+  }
 
 export default App;

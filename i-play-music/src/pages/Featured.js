@@ -3,30 +3,40 @@ import axios from "axios";
 
 import TokenContext from "../TokenContext";
 import TopNavBar from "../components/TopNavBar";
+import TopHeading from "../components/TopHeading";
+import FeaturedCard from "../components/FeaturedCard";
 import Drawer from "../components/Drawer";
 
-export default function Featured_Pg() {
+export default function FeaturedPg() {
 	var [token] = useContext(TokenContext);
     var [content, setContent] = useState({});
 
     useEffect(function(){
-        axios.get("https://api.spotify.com/v1/me", {
+        axios.get("https://api.spotify.com/v1/browse/featured-playlists", {
             headers: {
                 "Authorization": "Bearer " + token.access_token
             }
         })
-        .then(function (response){
+		.then(function (response){
             setContent(response.data);
+            console.log(content.playlists?.items)
         })}, [token, setContent]);
+
+
+
+
 
 	return (
 		<>
 		<TopNavBar>Featured</TopNavBar>
+		<TopHeading>Featured</TopHeading>
 
-
-		<img src="./featuredBig1.svg" alt="Womens body" className="featFirstPic" style={{width: "100%"}}/>
-
-		<img src="./featuredBig2.svg" alt="Womens head" style={{width: "100%"}}/>
+{/* Fetch */}
+		{content.playlists?.items.map(function(item){
+               return(
+                   <FeaturedCard image={item.images[0].url} artist={item.name} category={item.type} />
+               )
+           })}
 
 		<Drawer/>
 
