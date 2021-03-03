@@ -22,7 +22,7 @@ export default function FeaturedPg() {
         })
 		.then(function (response){
             setContent(response.data);
-            console.log(content.playlists?.items)
+            // console.log(content.playlists?.items)
         })}, [token, setContent]);
 
 

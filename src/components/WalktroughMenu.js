@@ -19,7 +19,6 @@ const NavLink = props => (
                   fontSize: "xx-large",
                   margin: "10px",
                   display: "flex",
-                  alignItems: "center",
                   marginTop: "5px",
                   width: "30px", 
                   color: isCurrent ? "white" : "black",
