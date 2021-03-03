@@ -19,7 +19,6 @@ const NavLink = props => (
                   fontSize: "xx-large",
                   margin: "10px",
                   display: "flex",
-                  alignItems: "center",
                   marginTop: "5px",
                   width: "30px", 
                   color: isCurrent ? "white" : "black",
@@ -52,7 +51,7 @@ export default function WalktroughMenuCard() {
 
             
                   
-                  <h2 className="WalkThroughSkip"><Link to="/">SKIP</Link></h2>
+                  <h2 className="WalkThroughSkip"><Link to="/Login">SKIP</Link></h2>
             
 
 		</article>

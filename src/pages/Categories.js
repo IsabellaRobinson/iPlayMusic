@@ -1,5 +1,6 @@
 import TopNavBar from "../components/TopNavBar";
 import CategoriesCards from "../components/Categories";
+import TopHeading from "../components/TopHeading";
 
 
 import Drawer from "../components/Drawer";
@@ -10,6 +11,7 @@ import Drawer from "../components/Drawer";
                         
                 <>
                 <TopNavBar>Categories</TopNavBar>
+                <TopHeading>Categories</TopHeading>
                 
                 <main className="Main_Categories">
                 

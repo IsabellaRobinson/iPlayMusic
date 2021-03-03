@@ -15,6 +15,8 @@ import WalktroughPg2 from "./pages/Walktrough_page2";
 import WalktroughPg3 from "./pages/Walkthrough_page3";
 import FeaturedPg from "./pages/Featured";
 import CategoriesPg from "./pages/Categories";
+import ErrorBoundary from "./components/ErrorBoundary";
+
 
 
 
@@ -23,6 +25,7 @@ function App() {
   var tokenState = useState(null);
 
   return (
+    <ErrorBoundary>
 
       <TokenContext.Provider value={tokenState}>
         <Router>
@@ -38,7 +41,8 @@ function App() {
   
          </Router>
       </TokenContext.Provider>
-  
+
+      </ErrorBoundary>
     );
   }
 
