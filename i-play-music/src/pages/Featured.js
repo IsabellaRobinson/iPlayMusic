@@ -11,6 +11,9 @@ export default function FeaturedPg() {
 	var [token] = useContext(TokenContext);
     var [content, setContent] = useState({});
 
+    //eslint-disable-next-line
+    // x = y;
+
     useEffect(function(){
         axios.get("https://api.spotify.com/v1/browse/featured-playlists", {
             headers: {
